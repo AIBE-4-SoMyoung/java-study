@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(dir:*)",
+      "Bash(javac:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(java:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
