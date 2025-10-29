@@ -1,6 +1,6 @@
-package p2;
+package day251024.p2;
 
-import p1.ParentClass;
+import day251024.p1.ParentClass;
 
 public class ChildClass extends ParentClass {
     public ChildClass() {

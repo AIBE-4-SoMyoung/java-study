@@ -1,4 +1,4 @@
-package model; // 경로. 소속된 묶음. -> 같은 패키지 내부에 있으면 충돌.
+package day251027.model; // 경로. 소속된 묶음. -> 같은 패키지 내부에 있으면 충돌.
 
 public class Animal {
     public static void main(String[] args) {

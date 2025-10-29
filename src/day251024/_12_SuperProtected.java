@@ -1,6 +1,6 @@
 package day251024;
 
-import p2.ChildClass;
+import day251024.p2.ChildClass;
 
 // super(this와의 차이점...), protected (접근제어자)
 // 4개 public, protected(상속+같은패키지), default(패키지), private(같은 클래스 내) (점점 좁은 범위의 접근)

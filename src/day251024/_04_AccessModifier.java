@@ -1,6 +1,6 @@
 package day251024;
 
-import dev.Data1; // 외부 패키지 경로에서 불러오는 경우
+import day251024.dev.Data1; // 외부 패키지 경로에서 불러오는 경우
 
 // 접근제어자, 접근자
 public class _04_AccessModifier {

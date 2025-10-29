@@ -1,6 +1,6 @@
 package day251027;
 
-import model.Animal;
+import day251027.model.Animal;
 
 // 04_Protected (접근제어자)
 public class _04_Protected {

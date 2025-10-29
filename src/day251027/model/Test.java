@@ -1,4 +1,4 @@
-package model;
+package day251027.model;
 
 public class Test {
     public static void main(String[] args) {

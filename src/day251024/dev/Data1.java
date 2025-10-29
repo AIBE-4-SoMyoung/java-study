@@ -1,4 +1,4 @@
-package dev;
+package day251024.dev;
 
 public class Data1 {
     void test() {
