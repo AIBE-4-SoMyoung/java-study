@@ -8,8 +8,7 @@ import java.nio.file.Path;
 
 public class _06_HttpDownload {
     public static void main(String[] args) {
-        // https://raw.githubusercontent.com/kimjava911/251029_java_adv/refs/heads/main/secret.txt
-        String url = "https://raw.githubusercontent.com/kimjava911/251029_java_adv/refs/heads/main/secret.txt";
+        String url = "https://raw.githubusercontent.com/AIBE-4-SoMyoung/java-study/refs/heads/main/src/day251029/secret.txt";
         HttpClient client = HttpClient.newHttpClient();
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -29,7 +28,7 @@ public class _06_HttpDownload {
         HttpRequest imgRequest = HttpRequest.newBuilder()
                 .uri(URI.create(imgUrl))
                 .build();
-        Path imgDestination = Path.of("my_cat.png");
+        Path imgDestination = Path.of("src/day251029/my_cat.png");
         try {
             HttpResponse<Path> response = client.send(imgRequest, HttpResponse.BodyHandlers.ofFile(imgDestination));
             System.out.println("파일 다운로드 완료 : " + response.body());
