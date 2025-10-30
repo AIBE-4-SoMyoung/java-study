@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 // 메서드 참조
-public class _02_ {
+public class _02_MethodReference {
     public static void main(String[] args) {
         // 몇몇 메서드들은 '함수'를 패러미터로 받는 경우
         // 1. 기존에 존재하던 메서드를 전달 -> 메서드 참조

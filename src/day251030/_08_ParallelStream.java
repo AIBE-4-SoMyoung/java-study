@@ -3,7 +3,7 @@ package day251030;
 import java.util.stream.IntStream;
 
 // Parallel Stream
-public class _08_ {
+public class _08_ParallelStream {
     public static void main(String[] args) {
         // Stream -> .parallel() <- ThreadPool
         // 순서보장, 공유 상태 X.

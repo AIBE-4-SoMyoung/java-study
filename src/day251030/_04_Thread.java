@@ -6,7 +6,7 @@ import java.util.Random;
 
 // 동시성 (Concurrency)
 // https://www.baeldung.com/java-concurrency
-public class _04_ {
+public class _04_Thread {
     public static void main(String[] args) {
         // 동시성 : 단일한 요청에 대해서 여러 작업을 '거의 동시'에 실행해서 응답성과 처리량 높임
         // 애플리케이션,요청 -> (N개를 여러 스레드, 방식) -> 속도 높임.

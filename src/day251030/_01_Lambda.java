@@ -4,7 +4,7 @@ package day251030;
 // JS : arrow function (화살표 함수)
 // -> 함수 표현식과 유사
 // Java는 모든 함수가 '메서드'다 (class 포함...)
-public class _01_ {
+public class _01_Lambda {
     public static void main(String[] args) {
         Calculator c = new Calculator() {
             @Override

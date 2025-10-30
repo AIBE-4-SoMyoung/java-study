@@ -26,7 +26,7 @@ import java.util.Random;
 // 동기화
 // JS -> 싱글 스레드 -> 상태화 '동기화'
 // Java -> 멀티 스레드 -> 공유자원 '경쟁 조건' (race condition)
-public class _07_ {
+public class _07_Synchronization {
     public static void main(String[] args) {
         Counter counter = new Counter();
         Runnable task = () -> {

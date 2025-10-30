@@ -5,7 +5,7 @@ import java.util.*;
 // 스트림 (반복되는 객체(리스트, 배열) -> 일괄 처리
 // 배열, 리스트 -> Stream -> ...
 // JS -> 고차함수. -> Array 내장.
-public class _03_ {
+public class _03_Stream {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         Random rd = new Random();

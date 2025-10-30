@@ -3,7 +3,7 @@ package day251030;
 import java.util.concurrent.CompletableFuture;
 
 // CompletableFuture
-public class _06_ {
+public class _06_CompletableFuture {
     public static void main(String[] args) {
         // Future + CompletionStage <- 체이닝
         CompletableFuture<String> f = CompletableFuture.supplyAsync(

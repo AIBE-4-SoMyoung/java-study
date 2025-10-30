@@ -9,7 +9,7 @@ import java.util.concurrent.Future;
 
 // Future (JS Promise 유사)
 // ThreadPool -> Thread를 미리 준비해놓고 꺼내다가 사용하는 형태 <- ExecutorService
-public class _05_ {
+public class _05_Future {
     public static void main(String[] args) {
         // 1. ExecutorService + Future
         ExecutorService pool = Executors.newFixedThreadPool(2); // 직접 만들어주면 성능상 최적화가 어려움
